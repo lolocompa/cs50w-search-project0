@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+        <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" rel="stylesheet">
+        <script crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"></script>
+    </head>
+    <body>
+        <nav class="bg-light border navbar navbar-expand-md navbar-light">
+            <div class="container-fluid collapse navbar-collapse">
+                <a class="navbar-brand" href="#"><span style="color: blue;">cs50</span> <span style="color: red;">search</span></a>
+                <ul class="navbar-nav ms-auto mt-2">
+                    <li class="nav-item"><a class="nav-link" href="index.html">google search</a></li>
+                </ul>
+            </div>
+        </nav>
+        <img src="google2.jpg" alt="google images" height="92" style="margin: 20px;" >
+        <h3 style="margin-left: 38px; margin-bottom: 70px; color: red;">advanced search</h3>
+        <form action="https://www.google.com/search?">
+            <div class="advanced-class1">
+                <h4>show pages with</h4>
+                <div class="advanced-class2">
+                    <label for="input1" style="margin-right: 106px;">all this words</label>
+                    <input type="text" name="as_q" id="input1" autocomplete="off" style="width: 400px;">
+                </div>
+                <div class="advanced-class2">
+                    <label for="input1" style="margin-right: 24px;">this exact word or phrase</label>
+                    <input type="text" autocomplete="off" name="as_epq" id="input1" style="width: 400px;">
+                </div>
+                <div class="advanced-class2">
+                    <label for="input1" style="margin-right: 66px;">any of these words</label>
+                    <input type="text" autocomplete="off" name="as_oq" id="input1" style="width: 400px;">
+                </div>
+                <div class="advanced-class2">
+                    <label for="input1" style="margin-right: 55px;">none of these words</label>
+                    <input type="text" name="as_eq" id="input1" autocomplete="off" style="width: 400px;">
+                </div>
+            </div>
+            <input class="btn btn-primary" style="margin-left: 60px;" type="submit" value="google Search">
+        </form>
+    </body>
+</html>
